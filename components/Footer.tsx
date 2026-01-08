@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
           PORTFOLIO<span className="text-emerald-600">.</span>
         </div>
         <div className="text-slate-500 text-sm">
-          © {new Date().getFullYear()} Designed with Gemini. All rights reserved.
+          © {new Date().getFullYear()} Diseñado con Gemini. Todos los derechos reservados.
         </div>
         <div className="flex gap-6">
           <a href="#" className="text-slate-400 hover:text-emerald-600 transition-colors font-medium">LinkedIn</a>

@@ -15,19 +15,19 @@ export const Contact: React.FC = () => {
         <div className="bg-white rounded-[3rem] p-8 md:p-16 shadow-2xl flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/2">
             <h2 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
-              Ready to start your next <span className="text-emerald-600">project?</span>
+              ¿Listo para empezar tu próximo <span className="text-emerald-600">proyecto?</span>
             </h2>
             <p className="text-slate-600 text-lg mb-10 leading-relaxed">
-              I'm currently available for freelance work and full-time opportunities. If you have a project that needs a expert touch, I'd love to hear from you.
+              Actualmente estoy disponible para trabajos freelance y oportunidades a tiempo completo. Si tienes un proyecto que necesita un toque experto, me encantaría saber de ti.
             </p>
             <div className="space-y-4">
               <div className="flex items-center gap-4 text-emerald-900 font-semibold">
                 <span className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600">📧</span>
-                hello@yourportfolio.com
+                hola@tuportafolio.com
               </div>
               <div className="flex items-center gap-4 text-emerald-900 font-semibold">
                 <span className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600">📍</span>
-                Remote / Global
+                Remoto / Global
               </div>
             </div>
           </div>
@@ -35,31 +35,31 @@ export const Contact: React.FC = () => {
           <div className="md:w-1/2 w-full">
             <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
               <div>
-                <label className="block text-sm font-bold text-slate-700 mb-2">Full Name</label>
+                <label className="block text-sm font-bold text-slate-700 mb-2">Nombre Completo</label>
                 <input 
                   type="text" 
                   className="w-full px-6 py-4 rounded-2xl bg-gray-50 border border-gray-100 focus:border-emerald-500 focus:bg-white focus:outline-none transition-all text-slate-800 placeholder-slate-400"
-                  placeholder="John Doe"
+                  placeholder="Juan Pérez"
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold text-slate-700 mb-2">Email Address</label>
+                <label className="block text-sm font-bold text-slate-700 mb-2">Correo Electrónico</label>
                 <input 
                   type="email" 
                   className="w-full px-6 py-4 rounded-2xl bg-gray-50 border border-gray-100 focus:border-emerald-500 focus:bg-white focus:outline-none transition-all text-slate-800 placeholder-slate-400"
-                  placeholder="john@example.com"
+                  placeholder="juan@ejemplo.com"
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold text-slate-700 mb-2">Project Brief</label>
+                <label className="block text-sm font-bold text-slate-700 mb-2">Breve del Proyecto</label>
                 <textarea 
                   rows={4}
                   className="w-full px-6 py-4 rounded-2xl bg-gray-50 border border-gray-100 focus:border-emerald-500 focus:bg-white focus:outline-none transition-all resize-none text-slate-800 placeholder-slate-400"
-                  placeholder="Tell me about your project..."
+                  placeholder="Cuéntame sobre tu proyecto..."
                 ></textarea>
               </div>
               <button className="w-full py-5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-bold shadow-xl shadow-emerald-200 transition-all transform hover:-translate-y-1">
-                Send Message
+                Enviar Mensaje
               </button>
             </form>
           </div>

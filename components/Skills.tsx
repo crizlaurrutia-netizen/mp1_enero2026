@@ -16,43 +16,43 @@ export const Skills: React.FC = () => {
     <div className="bg-white py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center max-w-2xl mx-auto mb-20">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Expertise & <span className="text-emerald-600">Skills</span></h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Experiencia y <span className="text-emerald-600">Habilidades</span></h2>
           <div className="h-1.5 w-20 bg-emerald-600 mx-auto rounded-full mb-6"></div>
           <p className="text-slate-500 text-lg">
-            A comprehensive set of tools and technologies I've mastered to deliver top-tier digital products.
+            Un conjunto completo de herramientas y tecnologías que he dominado para entregar productos digitales de primer nivel.
           </p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
           <SkillCard 
             icon="⚡"
-            title="Frontend Magic"
-            desc="Expert in React, TypeScript, and modern CSS frameworks like Tailwind. Creating fast, responsive interfaces is my passion."
+            title="Magia Frontend"
+            desc="Experto en React, TypeScript y frameworks CSS modernos como Tailwind. Crear interfaces rápidas y responsivas es mi pasión."
           />
           <SkillCard 
             icon="🛠️"
-            title="System Architecture"
-            desc="Designing scalable frontend architectures that are easy to maintain and extend as business requirements grow."
+            title="Arquitectura de Sistemas"
+            desc="Diseño de arquitecturas frontend escalables que son fáciles de mantener y extender a medida que crecen los requisitos del negocio."
           />
           <SkillCard 
             icon="🎨"
-            title="UI/UX Design"
-            desc="Fusing aesthetics with functionality. I build interfaces that don't just look good, but feel intuitive to use."
+            title="Diseño UI/UX"
+            desc="Fusionando estética con funcionalidad. Construyo interfaces que no solo se ven bien, sino que son intuitivas de usar."
           />
           <SkillCard 
             icon="📱"
-            title="Mobile First"
-            desc="Every line of code is written with a mobile-first approach, ensuring seamless experiences across all devices."
+            title="Primero Móvil"
+            desc="Cada línea de código se escribe con un enfoque centrado en móviles, asegurando experiencias fluidas en todos los dispositivos."
           />
           <SkillCard 
             icon="📦"
-            title="Modern Tooling"
-            desc="Proficient in Vite, Webpack, Git, and CI/CD pipelines to ensure rapid and reliable software delivery."
+            title="Herramientas Modernas"
+            desc="Competente en Vite, Webpack, Git y pipelines de CI/CD para asegurar una entrega de software rápida y confiable."
           />
           <SkillCard 
             icon="🚀"
-            title="Performance"
-            desc="Optimizing for core web vitals and ensuring lightning-fast load times for the best possible user experience."
+            title="Rendimiento"
+            desc="Optimización para web vitals y garantía de tiempos de carga ultrarrápidos para la mejor experiencia de usuario posible."
           />
         </div>
       </div>

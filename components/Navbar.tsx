@@ -21,12 +21,12 @@ export const Navbar: React.FC = () => {
           PORTFOLIO<span className="text-gray-900">.</span>
         </div>
         <div className="hidden md:flex space-x-8">
-          <a href="#home" className="text-sm font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Home</a>
-          <a href="#skills" className="text-sm font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Skills</a>
-          <a href="#contact" className="text-sm font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Get in Touch</a>
+          <a href="#home" className="text-sm font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Inicio</a>
+          <a href="#skills" className="text-sm font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Habilidades</a>
+          <a href="#contact" className="text-sm font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Contacto</a>
         </div>
         <button className="bg-emerald-600 text-white px-5 py-2 rounded-full text-sm font-bold shadow-lg shadow-emerald-200 hover:bg-emerald-700 transition-all">
-          Resume
+          Currículum
         </button>
       </div>
     </nav>
